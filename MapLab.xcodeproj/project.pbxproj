@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA329EE61E982066002DF0E4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA329EE51E982066002DF0E4 /* main.cpp */; };
+		CA329F011E9828F2002DF0E4 /* Location.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA329EFC1E9828F2002DF0E4 /* Location.cpp */; };
+		CA329F021E9828F2002DF0E4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA329EFE1E9828F2002DF0E4 /* main.cpp */; };
+		CA329F031E9828F2002DF0E4 /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA329EFF1E9828F2002DF0E4 /* Map.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		CA329EE21E982066002DF0E4 /* MapLab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MapLab; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA329EE51E982066002DF0E4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CA329EFC1E9828F2002DF0E4 /* Location.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Location.cpp; path = "../../../Downloads/MapLab-1-master/MapExample/Location.cpp"; sourceTree = "<group>"; };
+		CA329EFD1E9828F2002DF0E4 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Location.h; path = "../../../Downloads/MapLab-1-master/MapExample/Location.h"; sourceTree = "<group>"; };
+		CA329EFE1E9828F2002DF0E4 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../../Downloads/MapLab-1-master/MapExample/main.cpp"; sourceTree = "<group>"; };
+		CA329EFF1E9828F2002DF0E4 /* Map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Map.cpp; path = "../../../Downloads/MapLab-1-master/MapExample/Map.cpp"; sourceTree = "<group>"; };
+		CA329F001E9828F2002DF0E4 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Map.h; path = "../../../Downloads/MapLab-1-master/MapExample/Map.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		CA329EE41E982066002DF0E4 /* MapLab */ = {
 			isa = PBXGroup;
 			children = (
-				CA329EE51E982066002DF0E4 /* main.cpp */,
+				CA329EFC1E9828F2002DF0E4 /* Location.cpp */,
+				CA329EFD1E9828F2002DF0E4 /* Location.h */,
+				CA329EFE1E9828F2002DF0E4 /* main.cpp */,
+				CA329EFF1E9828F2002DF0E4 /* Map.cpp */,
+				CA329F001E9828F2002DF0E4 /* Map.h */,
 			);
 			path = MapLab;
 			sourceTree = "<group>";
@@ -120,7 +130,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA329EE61E982066002DF0E4 /* main.cpp in Sources */,
+				CA329F031E9828F2002DF0E4 /* Map.cpp in Sources */,
+				CA329F021E9828F2002DF0E4 /* main.cpp in Sources */,
+				CA329F011E9828F2002DF0E4 /* Location.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +261,7 @@
 				CA329EEB1E982066002DF0E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
